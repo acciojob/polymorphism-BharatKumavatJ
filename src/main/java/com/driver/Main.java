@@ -14,12 +14,12 @@ public class Main {
     public static void main(String[] args) {
         Product p = new Product();
         int ans = p.product(1, 2);
-        // System.out.println(ans);
+       
         int ans2 = p.product(1, 2, 3);
         // System.out.println(ans2);
 
         double ans3 = p.product(1.2, 2.1);
-        // System.out.println(ans3);
+        System.out.println(ans + " " + ans2 + " " + ans3);
 
     }
 }
